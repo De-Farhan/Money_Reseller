@@ -1,4 +1,4 @@
-/*----------------responsive all devices start----------------*/
+/*----------------responsive index page start----------------*/
 /*----------------responsive extra small device start----------------*/
 @media (min-width: 320px) and (max-width: 575px) {
   /*--------------header part start------------*/
@@ -87,7 +87,7 @@
       -webkit-transform: translateX(-50%);
               transform: translateX(-50%); }
     #main_content .subscribe {
-      margin: 0; }
+      margin-top: 0; }
 
   /*--------------main content part end------------*/
   /*--------------to top botton start------------*/
@@ -355,6 +355,91 @@
 
   /*--------------to top botton end------------*/ }
 /*----------------responsive medium device start----------------*/
-/*----------------responsive all devices end----------------*/
+/*----------------responsive index page end----------------*/
+/*----------------responsive all page start----------------*/
+/*----------------responsive extra small device start----------------*/
+@media (min-width: 320px) and (max-width: 575px) {
+  #main_content .wrapper {
+    margin-top: 975px; }
+    #main_content .wrapper .pagination_box ul li {
+      margin-right: 5px; }
+      #main_content .wrapper .pagination_box ul li:first-child .page-link {
+        padding: 2px 10px; }
+      #main_content .wrapper .pagination_box ul li:last-child .page-link {
+        padding: 2px 10px; }
+      #main_content .wrapper .pagination_box ul li a {
+        padding: 2px 8px; }
+  #main_content .hang_top_first {
+    top: 25px; }
+  #main_content .hang_top_sec {
+    top: 500px; }
+  #main_content .wrap {
+    margin-top: 1000px; }
+    #main_content .wrap .row [class|="col"] {
+      margin-bottom: 25px; }
+      #main_content .wrap .row [class|="col"]:last-child {
+        margin-bottom: 0; }
+  #main_content .shopping_first {
+    top: 0; }
+  #main_content .contact_subs {
+    margin-top: 25px; } }
+/*----------------responsive extra small device end----------------*/
+/*----------------responsive small device start----------------*/
+@media (min-width: 576px) and (max-width: 767px) {
+  #main_content .wrapper {
+    margin-top: 975px; }
+    #main_content .wrapper .pagination_box ul li {
+      margin-right: 5px; }
+      #main_content .wrapper .pagination_box ul li:first-child .page-link {
+        padding: 2px 10px; }
+      #main_content .wrapper .pagination_box ul li:last-child .page-link {
+        padding: 2px 10px; }
+      #main_content .wrapper .pagination_box ul li a {
+        padding: 2px 8px; }
+  #main_content .hang_top_first {
+    top: 25px; }
+  #main_content .hang_top_sec {
+    top: 500px; }
+  #main_content .wrap {
+    margin-top: 530px;
+    margin-bottom: 25px; }
+    #main_content .wrap .row [class|="col"] {
+      margin-bottom: 25px; }
+      #main_content .wrap .row [class|="col"]:last-child {
+        margin-bottom: 0; }
+  #main_content .shopping_first {
+    top: 0; }
+  #main_content .shopping_sec {
+    top: -10px; } }
+/*----------------responsive small device end----------------*/
+/*----------------responsive small device start----------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  #main_content .wrapper {
+    margin-top: 975px; }
+    #main_content .wrapper .pagination_box ul li {
+      margin-right: 5px; }
+      #main_content .wrapper .pagination_box ul li:first-child .page-link {
+        padding: 2px 10px; }
+      #main_content .wrapper .pagination_box ul li:last-child .page-link {
+        padding: 2px 10px; }
+      #main_content .wrapper .pagination_box ul li a {
+        padding: 2px 8px; }
+  #main_content .hang_top_first {
+    top: 25px; }
+  #main_content .hang_top_sec {
+    top: 500px; }
+  #main_content .wrap {
+    margin-top: 530px;
+    margin-bottom: 25px; }
+    #main_content .wrap .row [class|="col"] {
+      margin-bottom: 25px; }
+      #main_content .wrap .row [class|="col"]:last-child {
+        margin-bottom: 0; }
+  #main_content .shopping_first {
+    top: 0; }
+  #main_content .shopping_sec {
+    top: -10px; } }
+/*----------------responsive small device end----------------*/
+/*----------------responsive all page end----------------*/
 
 /*# sourceMappingURL=responsive.css.map */
