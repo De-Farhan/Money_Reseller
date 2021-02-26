@@ -1,4 +1,10 @@
 
+/*-----------preloader js start------------*/
+setTimeout(function(){
+  $("#preloader").fadeOut();
+}, 3000);
+/*-----------preloader js end------------*/
+
 /*-----------vano box js start------------*/
 $(document).ready(function(){
     $('#main_content .content_wrapper .venobox').venobox(); 
